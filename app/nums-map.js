@@ -8,5 +8,11 @@ const nums2 = nums.map((num, index) => {
     return num;
 });
 
-console.log(nums2);
+// const nums2 = nums.map((num, index) => (index % 2 ? num * 10 : num));
+
+let odds = nums.filter((num) => num % 2);
+
+console.log(odds);
+
+// console.log(nums2);
 
