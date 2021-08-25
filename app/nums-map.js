@@ -16,3 +16,9 @@ console.log(odds);
 
 // console.log(nums2);
 
+// Todo: sum the numbers in the nums array
+const total = nums.reduce((sum, num) => {
+    sum += num;
+    return sum;
+});
+
